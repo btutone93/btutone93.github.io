@@ -20,44 +20,39 @@
       padding: 25px;
     }
 
-    /* .row-height {
-      background-color: #9ccef0;
-      position: relative;
-    }
-
-    .row-height p {
-      position: relative;
-      top: 50%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      height: 70%;
-    } */
-
-    /* .row-height img {
-      width: auto;
-      height: 70%;
-    } */
-
     p {
       margin-top: 20vh;
       margin-bottom: 20vh;
+    }
+
+    .row-height {
+      /* background-color: #9ccef0; */
+      position: relative;
+      height: 100vh;
+    }
+
+    .row-height p1 {
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 15vh;
     }
 
   </style>
 </head>
 <body>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <img src="./images/gb_2019.jpg" class="img-responsive" style="width:100%">
-    <h1>Good Brother</h1>      
-  </div>
+<div class="jumbotron row-height">
+  <p1 class="container text-center">
+    <img src="./images/gb_2019.jpg" class="img-responsive" width="100%">
+    Good Brother
+  </p1>
 </div>
 
 <div class="container-fluid text-center">    
   
-  <div class="row justify-content-md-center row-height">
+  <div class="row justify-content-md-center">
     <p><img src="./images/peace.jpg" class="img-responsive center-block p1"></p>
 
     <p> <iframe src="https://open.spotify.com/embed/artist/1SfVMyhBUa6GmDEk0M1kM3" width: "100%" height="500" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
