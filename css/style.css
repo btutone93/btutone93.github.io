@@ -7,8 +7,13 @@ main {
     border-radius: 0;
   }
 
-.landing {
-    /* margin-top: 5vh; */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* .landing {
     width: auto;
     text-align: center;
     font-size: 5vw;
@@ -19,12 +24,7 @@ main {
     margin: 0%;
     margin-bottom: 5vh;
     background-color: #eee;
-}
-
-.jumbotron row {
-    padding: 0%;
-    margin: 0%;
-}
+} */
 
 footer {
     background-color: #f2f2f2;
@@ -40,10 +40,7 @@ p {
 a {
     vertical-align: middle;
     margin: 0%;
-    /* margin-bottom: 3vh;    */
-    /* display: block; */
-    text-align: center;
-    /* padding: 5px; */
+    text-align: right;
     transition: all 0.3s ease;
     color: white;
   }
@@ -61,7 +58,7 @@ a {
     background-color: #000;
   }
   
-  .fa-facebook {
+  .facebook {
     /* background: #3B5998; */
     color: white;
     font-size: 1vh;
