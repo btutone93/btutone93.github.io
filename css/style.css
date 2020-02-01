@@ -42,19 +42,19 @@ a {
     color: white;
   }
 
+.social {
+  font-size: 5vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
   .social {
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     text-decoration: none;
   }
-
-  @media screen and (min-width: 768px) {
-    .social {
-      font-size: 3vw;
-      text-align: center;
-      text-decoration: none;
-    }
-  }
+}
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
