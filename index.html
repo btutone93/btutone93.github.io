@@ -14,8 +14,16 @@
   
   <body>
     <div class="container-fluid" style="padding: 0%; margin-bottom: 15vh;">
-      <img src="./images/bananatown.jpg" style="width:100%;">
-      <div class="top-right" style="font-size: 3vw">
+      <!-- <img src="./images/bananatown.jpg" style="width:100%;"> -->
+
+      <picture>
+          <source srcset="./images/bananatown-mobile.jpg" media="(max-width: 400px)">
+          <source srcset="./images/bananatown.jpg" style="max-width: 100%;">
+          <img src="./images/bananatown.jpg" style="max-width:100%;">
+      </picture>
+
+
+      <div class="top-right social">
         <a href="https://www.facebook.com/goodbrothermusic/" class="fa fa-facebook"></a> 
         <a href="https://soundcloud.com/imgoodbrother" class="fa fa-soundcloud"></a> 
         <a href="https://www.instagram.com/imgoodbrother/?hl=en" class="fa fa-instagram"></a> 
@@ -25,7 +33,7 @@
 
     <div class="container-fluid text-center">          
       <div class="row justify-content-md-center">
-          <p><img src="./images/greetings.png" class="img-responsive center-block" style="max-width: 55vw;"></p>
+          <p> <img src="./images/greetings.png" class="img-responsive center-block mobile"> </p>
       </div>
       
       <div class="row justify-content-md-center">
@@ -39,7 +47,7 @@
       </div>
 
       <div class="row justify-content-md-center">
-        <p><img src="./images/flower.JPG" class="img-responsive center-block" style="max-width: 50vw;"></p>
+        <p><img src="./images/flower.JPG" class="img-responsive center-block mobile"></p>
       </div>
       
     </div>

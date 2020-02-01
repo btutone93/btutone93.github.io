@@ -13,18 +13,15 @@ main {
   right: 1vw;
 }
 
-/* .landing {
-    width: auto;
-    text-align: center;
-    font-size: 5vw;
-    font-family: 'Notable', sans-serif;
-    padding: 0%;
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-    margin: 0%;
-    margin-bottom: 5vh;
-    background-color: #eee;
-} */
+.mobile {
+  max-width: 350px;
+}
+
+@media screen and (min-width: 400px) {
+  .mobile {
+    max-width: 55vw;
+  }
+}
 
 footer {
     background-color: #f2f2f2;
@@ -45,23 +42,29 @@ a {
     color: white;
   }
 
-  .fa {
-    /* padding: 20px; */
-    font-size: 3px;
-    /* width: 50px; */
+  .social {
+    font-size: 5vw;
     text-align: center;
     text-decoration: none;
+  }
+
+  @media screen and (min-width: 400px) {
+    .social {
+      font-size: 3vw;
+      text-align: center;
+      text-decoration: none;
+    }
   }
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
     background-color: #000;
   }
-  
+
   .facebook {
     /* background: #3B5998; */
     color: white;
-    font-size: 1vh;
+    /* font-size: 1vh; */
   }
   
   .soundcloud {
