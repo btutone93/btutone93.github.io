@@ -14,7 +14,7 @@ main {
 }
 
 .mobile {
-  max-width: 350px;
+  max-width: 90vw;
 }
 
 @media screen and (min-width: 400px) {
