@@ -17,7 +17,7 @@ main {
   max-width: 90vw;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
   .mobile {
     max-width: 55vw;
   }
@@ -48,7 +48,7 @@ a {
     text-decoration: none;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 768px) {
     .social {
       font-size: 3vw;
       text-align: center;
